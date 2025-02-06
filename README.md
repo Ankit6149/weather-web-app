@@ -14,3 +14,10 @@
 - **Frontend:** React.js (Class Components, Lifecycle Methods, Props, State)
 - **Styling:** CSS for layout and design
 - **API Integration:** OpenWeatherMap API for weather data
+
+## ⚙️ How It Works
+- The app is built using **class-based components** instead of modern hooks.
+- Lifecycle methods used:
+  - `componentDidMount()` is used to fetch initial weather data.
+  - `setState()` is used for state management.
+  - `render()` is used for UI updates.
