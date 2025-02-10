@@ -122,7 +122,7 @@ class Input extends React.Component {
       <div>
         <input
           type="text"
-          placeholder="Search from location..."
+          placeholder="Search location..."
           value={this.props.location}
           onChange={this.props.onChangeLocation}
         />
